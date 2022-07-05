@@ -11,10 +11,7 @@ const Home = ( props: Props ) =>
     return (
         <div>
 
-            <Header />
-
-
-            <div>hello wolrd</div>
+            <div>home page</div>
 
 
         </div>
