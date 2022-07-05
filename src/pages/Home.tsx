@@ -1,3 +1,4 @@
+import Header from '@components/base/Header';
 import React from 'react'
 import { useLayout } from '../hooks/useLayout'
 
@@ -9,7 +10,8 @@ const Home = ( props: Props ) =>
 
     return (
         <div>
-                <div>hello wolrd</div>
+            <div>hello wolrd</div>
+
 
         </div>
     )
