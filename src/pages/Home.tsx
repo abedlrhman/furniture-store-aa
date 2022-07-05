@@ -1,6 +1,6 @@
-import Header from '@components/base/Header';
-import React from 'react'
-import { useLayout } from '../hooks/useLayout'
+import Header from "@layout/Header"
+
+
 
 type Props = {}
 
@@ -10,7 +10,8 @@ const Home = ( props: Props ) =>
 
     return (
         <div>
-            <div>hello wolrd</div>
+
+            <div>home page</div>
 
 
         </div>

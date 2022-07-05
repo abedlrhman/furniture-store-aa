@@ -20,12 +20,13 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
-     "paths":{
-      "@components/*":["components/*"],
-      "@pages/*":["pages/*"],
-      "@layout/*":["layout/*"]
-     }
+    "paths": {
+      "@/*": ["src/*"], 
+      "@layout/*": ["src/layout/*"], 
+      "@pages/*": ["src/pages/*"] 
+    }
   },
+  "extends": "./tsconfig.paths.json",
   "include": [
     "src"
   ] 

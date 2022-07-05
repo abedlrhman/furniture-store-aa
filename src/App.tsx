@@ -8,39 +8,27 @@ import
 import AllRoutes from "./router";
 
 function App ()
+
 {
 
   return (
     <div className="text-3xl font-bold">
-
       <BrowserRouter>
-
         <Routes>
 
           {
-
-            AllRoutes.map( (routeItem, index) => (
-
-
-              <Route path={ routeItem.path } element={ <routeItem.layout /> } key={ "route-" + index }>
-                <Route element={ <routeItem.component /> } index />
-              </Route>
-
-            ) )
-
+            AllRoutes.map(
+              ( item, index ) => (
+                <Route path="/" element={ <item.layout /> } key={ "pages-routes-" + index }>
+                  <Route index element={ <item.component /> } />
+                </Route>
+              )
+            )
           }
-
-
-
-
-
-
-
         </Routes>
-
       </BrowserRouter>
 
-      <Home />
+      
     </div>
   );
 }

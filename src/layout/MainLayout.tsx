@@ -1,5 +1,6 @@
 import React, { ReactNode } from 'react'
-import Header from './Header'
+import Header from "@layout/Header"
+import { Outlet } from 'react-router-dom';
 
 type Props = {
     children?: ReactNode;
@@ -9,13 +10,12 @@ type Props = {
 function MainLayout ( { children }: Props )
 {
 
-    console.log( children )
     return (
         <div>
 
             <Header />
 
-            { children }
+            <Outlet />
 
             <footer>
                 main layout footer
