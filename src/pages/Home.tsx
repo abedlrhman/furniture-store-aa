@@ -1,11 +1,21 @@
 import React from 'react'
+import { useLayout } from '../hooks/useLayout'
 
 type Props = {}
 
-const Home = (props: Props) => {
-  return (
-    <div> heloo what's ups</div>
-  )
+const Home = ( props: Props ) =>
+{
+
+    const Layout = useLayout( "mainLayout" )
+
+    return (
+        <div>
+            <Layout>
+                <div>hello wolrd</div>
+            </Layout>
+
+        </div>
+    )
 }
 
 export default Home
