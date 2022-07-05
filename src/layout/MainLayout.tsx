@@ -6,20 +6,23 @@ type Props = {
 
 }
 
-function MainLayout({children}: Props) {
-  return (
-      <div>
-          
-          <Header />
-      
-          { children }
+function MainLayout ( { children }: Props )
+{
 
-          <footer>
-              main layout footer
-          </footer>
-          
-      </div>
-  )
+    console.log( children )
+    return (
+        <div>
+
+            <Header />
+
+            { children }
+
+            <footer>
+                main layout footer
+            </footer>
+
+        </div>
+    )
 }
 
 export default MainLayout

@@ -6,13 +6,10 @@ type Props = {}
 const Home = ( props: Props ) =>
 {
 
-    const Layout = useLayout( "mainLayout" )
 
     return (
         <div>
-            <Layout>
                 <div>hello wolrd</div>
-            </Layout>
 
         </div>
     )
