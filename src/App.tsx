@@ -1,4 +1,4 @@
-import Home from "./pages/Home";
+import Home from "@pages/Home";
 import
 {
   BrowserRouter,
@@ -13,22 +13,9 @@ function App ()
   return (
     <div className="text-3xl font-bold">
 
-      <BrowserRouter>
+      
 
-        <Routes>
-
-          {
-
-            AllRoutes.map( (routeItem, index) => (
-
-
-              <Route path={ routeItem.path } element={ <routeItem.layout /> } key={ "route-" + index }>
-                <Route element={ <routeItem.component /> } index />
-              </Route>
-
-            ) )
-
-          }
+         <Home />
 
 
 
@@ -36,9 +23,7 @@ function App ()
 
 
 
-        </Routes>
-
-      </BrowserRouter>
+      
 
       <Home />
     </div>
