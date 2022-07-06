@@ -5,6 +5,12 @@ import HeaderData from "../data/header.json"
 
 type Props = {}
 
+type HeaderItemType = {
+  url: string;
+  name: string;
+  id: number;
+}
+
 function Header ( { }: Props )
 {
   return (
@@ -32,10 +38,10 @@ function Header ( { }: Props )
           </div>
           <ul className="hidden md:flex gap-8 text-lg ">
 
-           
+
 
             {
-              HeaderData.data.map( headerItem =>
+              HeaderData.data.map( (headerItem: HeaderItemType) =>
               (
                 <li key={ headerItem.id } className="text-zinc-700 hover:text-black"><Link to={ headerItem.url }>{ headerItem.name }</Link></li>
 
