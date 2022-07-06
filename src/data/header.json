@@ -1,0 +1,24 @@
+{
+    "data": [
+        {
+            "name": "Home",
+            "url": "#",
+            "id": 1
+        },
+        {
+            "name": "Catalog",
+            "url": "#",
+            "id": 2
+        },
+        {
+            "name": "About Us",
+            "url": "#",
+            "id": 3
+        },
+        {
+            "name": "Contact",
+            "url": "#",
+            "id": 4
+        }
+    ]
+}
