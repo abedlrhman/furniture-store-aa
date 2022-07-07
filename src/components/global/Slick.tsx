@@ -1,8 +1,10 @@
 import { ReactNode } from "react";
-import Slider from "@types/react-slick";
+import Slider from "react-slick";
+
 type Props = {
     children?: ReactNode,
 }
+
 function Slick(props:Props) {
   const settings = {
     className: "center",
