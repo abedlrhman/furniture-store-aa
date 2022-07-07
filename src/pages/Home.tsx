@@ -1,3 +1,4 @@
+import Slick from "@/components/global/Slick"
 
 
 
@@ -12,7 +13,7 @@ const Home = ( props: Props ) =>
     return (
         <div>
 
-        
+        <Slick/>
 
 
         </div>
