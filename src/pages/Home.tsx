@@ -1,4 +1,5 @@
-import Header from "@layout/Header"
+
+
 
 
 
@@ -11,7 +12,7 @@ const Home = ( props: Props ) =>
     return (
         <div>
 
-            <div>home page</div>
+        
 
 
         </div>
