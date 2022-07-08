@@ -1,13 +1,11 @@
 import ProductCard from "@/components/base/ProductCard"
 import Slick from "@/components/global/Slick"
-<<<<<<< HEAD
+import MultipleSlider from "@/components/sliders/multipleSlider"
+
 import slider from "../data/slider.json"
 
+import BestSellers from "../data/bestSlellers.json"
 
-=======
-import MultipleSlider from "@/components/sliders/multipleSlider"
-import BestSellers from "@data/bestSlellers.json"
->>>>>>> eba336490d7671f014ee2dea606e8057bd699e54
 
 
 
@@ -28,11 +26,10 @@ function Home ( props: Props )
               slider.data.map( (sliderItem:any) =>
 
                 (
-                <div className="">
-                <div className="flex flex-col	">
-                    <img style={{width:"200px",height:"200px"}} key={sliderItem.id} src={sliderItem.img} alt="" /></div>
-                </div>
-                    
+               <div className="mb-5 w-100 h-100 ">
+                    <img className="max-w-full h-auto"  key={sliderItem.id} src={sliderItem.img} alt="" />
+           
+                    </div>
                      
 
                 ) )

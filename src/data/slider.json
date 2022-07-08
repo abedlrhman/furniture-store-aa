@@ -1,7 +1,7 @@
 {
     "data": [
         {
-                "img": "https://images.pexels.com/photos/923192/pexels-photo-923192.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                "img": "/img/img1.jpg",
                 "title": "img1",
                 "id": 1,
                  "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "

@@ -6,33 +6,28 @@ type Props = {
 }
 
 function Slick(props:Props) {
-  const settings = {
-    className: "center",
-    centerMode: true,
-    infinite: true,
-    centerPadding: "200px",
+  var settings = {
+  
+    infinite: false,
+    speed: 500,
     slidesToShow: 1,
-    speed: 600,
+    slidesToScroll: 1,
+    initialSlide: 0,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+   /*  nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />, */
     responsive: [
+      
+
       {
-        breakpoint: 1050,
+        breakpoint: 480,
         settings: {
-          centerPadding: "150px",
-        },
-      },
-      {
-        breakpoint: 775,
-        settings: {
-          centerPadding: "100px",
-        },
-      },
-      {
-        breakpoint: 550,
-        settings: {
-          centerPadding: "0px",
-        },
-      },
-    ],
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
   return (
     <>
