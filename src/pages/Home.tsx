@@ -22,7 +22,7 @@ function Home ( props: Props )
     return (
         <div className="overflow-hidden	">
 
-<<<<<<< HEAD
+
             <Slick>
             {
               slider.data.map( (sliderItem:any) =>
@@ -39,7 +39,7 @@ function Home ( props: Props )
               }
            
             </Slick>
-=======
+
             <MultipleSlider itemsToScroll={ 1 } itemsToShow={ 4 } >
                 
                 { BestSellers.data.map( sliderItem => (
@@ -51,7 +51,7 @@ function Home ( props: Props )
                
                 
             </MultipleSlider>
->>>>>>> eba336490d7671f014ee2dea606e8057bd699e54
+
 
 
         </div>
