@@ -1,0 +1,60 @@
+{
+    "data": [
+        {
+            "image": "https://cdn.dsmcdn.com/ty15/product/media/images/20201008/15/14179864/91568254/1/1_org_zoom.jpg",
+            "title": "Modern Chair",
+            "company": "Design PRP",
+            "price": 115.00,
+            "id": 1
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty301/product/media/images/20220121/20/31617369/365501596/1/1_org_zoom.jpg",
+            "title": "Wood Nightstand",
+            "company": "Arte Italia",
+            "price": 445.00,
+            "id": 2
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty465/product/media/images/20220701/17/133471724/270172211/1/1_org_zoom.jpg",
+            "title": "Modern Chair",
+            "company": "Design PRP",
+            "price": 115.00,
+            "id": 3
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty334/product/media/images/20220218/23/53301638/233980545/1/1_org_zoom.jpg",
+            "title": "Modern Chair",
+            "company": "Design PRP",
+            "price": 115.00,
+            "id": 4
+        },
+         {
+            "image": "https://cdn.dsmcdn.com/ty15/product/media/images/20201008/15/14179864/91568254/1/1_org_zoom.jpg",
+            "title": "Modern Chair",
+            "company": "Design PRP",
+            "price": 115.00,
+            "id": 5
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty301/product/media/images/20220121/20/31617369/365501596/1/1_org_zoom.jpg",
+            "title": "Wood Nightstand",
+            "company": "Arte Italia",
+            "price": 445.00,
+            "id": 6
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty465/product/media/images/20220701/17/133471724/270172211/1/1_org_zoom.jpg",
+            "title": "Modern Chair",
+            "company": "Design PRP",
+            "price": 115.00,
+            "id": 7
+        },
+        {
+            "image": "https://cdn.dsmcdn.com/ty334/product/media/images/20220218/23/53301638/233980545/1/1_org_zoom.jpg",
+            "title": "Modern Chair",
+            "company": "Design PRP",
+            "price": 115.00,
+            "id": 8
+        }
+    ]
+}

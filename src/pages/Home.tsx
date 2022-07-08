@@ -1,7 +1,13 @@
+import ProductCard from "@/components/base/ProductCard"
 import Slick from "@/components/global/Slick"
+<<<<<<< HEAD
 import slider from "../data/slider.json"
 
 
+=======
+import MultipleSlider from "@/components/sliders/multipleSlider"
+import BestSellers from "@data/bestSlellers.json"
+>>>>>>> eba336490d7671f014ee2dea606e8057bd699e54
 
 
 
@@ -16,6 +22,7 @@ function Home ( props: Props )
     return (
         <div className="overflow-hidden	">
 
+<<<<<<< HEAD
             <Slick>
             {
               slider.data.map( (sliderItem:any) =>
@@ -32,6 +39,19 @@ function Home ( props: Props )
               }
            
             </Slick>
+=======
+            <MultipleSlider itemsToScroll={ 1 } itemsToShow={ 4 } >
+                
+                { BestSellers.data.map( sliderItem => (
+                    <div key={sliderItem.id}>
+                        <ProductCard {...sliderItem} />
+                    </div>
+                )) }
+
+               
+                
+            </MultipleSlider>
+>>>>>>> eba336490d7671f014ee2dea606e8057bd699e54
 
 
         </div>
