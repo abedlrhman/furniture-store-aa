@@ -1,39 +1,36 @@
 import Slick from "@/components/global/Slick"
+import slider from "../data/slider.json"
 
 
 
 
 
-type Props = {}
+type Props = {
+   
+}
 
-const Home = ( props: Props ) =>
+function Home ( props: Props )
 {
 
 
     return (
-        <div>
+        <div className="overflow-hidden	">
 
             <Slick>
+            {
+              slider.data.map( (sliderItem:any) =>
 
-                <div>
-                    <h3>1</h3>
+                (
+                <div className="">
+                <div className="flex flex-col	">
+                    <img style={{width:"200px",height:"200px"}} key={sliderItem.id} src={sliderItem.img} alt="" /></div>
                 </div>
-                <div>
-                    <h3>2</h3>
-                </div>
-                <div>
-                    <h3>3</h3>
-                </div>
-                <div>
-                    <h3>4</h3>
-                </div>
-                <div>
-                    <h3>5</h3>
-                </div>
-                <div>
-                    <h3>6</h3>
-                </div>
+                    
+                     
 
+                ) )
+              }
+           
             </Slick>
 
 
